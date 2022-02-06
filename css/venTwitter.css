@@ -1,0 +1,133 @@
+h2.tut{
+	color:white;
+	font-family:"Liberation Sans", FreeSans, Sans-serif;
+	font-size:16px;
+	padding:12px 0 0 58px;
+	text-transform:uppercase;
+
+	text-shadow:2px 1px 6px #333;
+}
+
+#twitter-ticker{
+	width:204px;
+	height:300px;
+	background:url(../images/img_twitter/slickbg.png) no-repeat #f5f5f5;
+	color:#666666;
+	display:none;
+
+	-moz-border-radius:10px 10px 6px 6px;
+	-khtml-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius:6px;
+
+	text-align:left;
+}
+
+#tweet-container{
+	height:auto; /*245px;*/
+	width:auto; /*auto;*/
+}
+
+.scroll-pane {
+	width: 204px;
+	height: 250px;
+	overflow: auto;
+}
+
+#twitIcon{
+	position:absolute;
+	top:-25px;
+	left:-10px;
+	width:64px;
+	height:64px;
+}
+
+#top-bar{
+	height:34px;
+	/*background:url(../images/img_twitter/top_bar.png) repeat-x;*/
+	background:url(../images/blue/bg_h3.png);
+	border-bottom:1px solid white;
+	position:relative;
+	margin-bottom:8px;
+
+	-moz-border-radius:6px 6px 0 0;
+}
+
+.tweet{
+	padding:5px;
+	margin:0 8px 8px;
+
+	border:1px solid #F0F0F0;
+	background:url(../images/img_twitter/transparent.png);
+
+	width:auto;
+	overflow:hidden;
+}
+
+.tweet .avatar,
+.tweet .user,
+.tweet .time{
+	float:left;
+	padding:2px;
+}
+
+.tweet .time{
+	text-transform:uppercase;
+	font-size:10px;
+	color:#AAAAAA;
+	white-space:nowrap;
+}
+
+
+.tweet .avatar img{
+	width:36px;
+	height:36px;
+	border:2px solid #eeeeee;
+	margin:0 5px 5px 0;
+}
+
+.tweet .txt{
+	clear:both;
+}
+
+.tweet .user{
+	font-weight:bold;
+}
+
+/*a, a:visited {
+	color:#00BBFF;
+	text-decoration:none;
+	outline:none;
+}*/
+
+/*a:hover{
+	text-decoration:underline;
+}*/
+
+#loading{
+	margin:100px 95px;
+}
+
+/* The styles below are only necessary for the demo page */
+
+/*p{
+	padding-top:7px;
+}*/
+
+#twitter-ticker{
+	margin:20px auto 20px;
+}
+
+
+#main{
+	margin:40px auto;
+	text-align:center;
+	width:420px;
+}
+
+/*h1{
+	color:white;
+	font-size:36px;
+	font-weight:bold;
+	font-family:"Liberation Sans", FreeSans, Sans-serif;
+}*/

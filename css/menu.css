@@ -1,0 +1,202 @@
+<!--%%%%%%%%%%%% QuickMenu Styles [Keep in head for full validation!] %%%%%%%%%%%-->
+<style type="text/css">
+/*!!!!!!!!!!! QuickMenu Core CSS [Do Not Modify!] !!!!!!!!!!!!!*/
+.qmmc .qmdivider {
+	display: block;
+	font-size: 1px;
+	border-width: 0px;
+	border-style: solid;
+	position: relative;
+	z-index: 1;
+}
+
+.qmmc .qmdividery {
+	float: left;
+	width: 0px;
+}
+
+.qmmc .qmtitle {
+	display: block;
+	cursor: default;
+	white-space: nowrap;
+	position: relative;
+	z-index: 1;
+}
+
+.qmclear {
+	font-size: 1px;
+	height: 0px;
+	width: 0px;
+	clear: left;
+	line-height: 0px;
+	display: block;
+	float: none !important;
+}
+
+.qmmc {
+	position: relative;
+	zoom: 1;
+	z-index: 10;
+}
+
+.qmmc a,.qmmc li {
+	float: left;
+	display: block;
+	white-space: nowrap;
+	position: relative;
+	z-index: 1;
+}
+
+.qmmc div a,.qmmc ul a,.qmmc ul li {
+	float: none;
+}
+
+.qmsh div a {
+	float: left;
+}
+
+.qmmc div {
+	visibility: hidden;
+	position: absolute;
+}
+
+.qmmc .qmcbox {
+	cursor: default;
+	display: block;
+	position: relative;
+	z-index: 1;
+}
+
+.qmmc .qmcbox a {
+	display: inline;
+}
+
+.qmmc .qmcbox div {
+	float: none;
+	position: static;
+	visibility: inherit;
+	left: auto;
+}
+
+.qmmc li {
+	z-index: auto;
+}
+
+.qmmc ul {
+	left: -10000px;
+	position: absolute;
+	z-index: 10;
+}
+
+.qmmc,.qmmc ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+.qmmc li a {
+	float: none;
+}
+
+.qmmc li:hover>ul {
+	left: auto;
+}
+
+#qm0 ul {
+	top: 100%;
+}
+
+#qm0 ul li:hover>ul {
+	top: 0px;
+	left: 100%;
+}  /*!!!!!!!!!!! QuickMenu Styles [Please Modify!] !!!!!!!!!!!*/
+	/* QuickMenu 0 */ /*"""""""" (MAIN) Container""""""""*/
+#qm0 {
+	width: auto;
+	font-weight: bold;
+	background-color: #3288B7; /*#fafafa;/* #d7e3f6; /* #fafafa*/
+	border-width: 4px 0px;
+	border-style: solid;
+	border-color: #6dafd3; /* #a2bfe9; /* #3288B7*/
+}  /*"""""""" (MAIN) Items""""""""*/
+#qm0 a {
+	padding: 6px 10px; /*6px 10px 6px 8px;*/
+	color: #ffffff;
+	font-weight: bold;
+	font-family: "Liberation Sans", FreeSans, Sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+}  /*"""""""" (MAIN) Hover State""""""""*/
+#qm0 a:hover {
+	background-color: #6dafd3; /*#e6e4d8; /* #90b8eb;*/
+}  /*"""""""" (MAIN) Hover State - (duplicated for pure CSS)""""""""*/
+#qm0 li:hover>a {
+	background-color: #3288B7; /**#90b8eb;*/
+}  /*"""""""" (MAIN) Active State""""""""*/
+body #qm0 .qmactive,body #qm0 .qmactive:hover {
+	background-color: #6dafd3; /*#e6e4d8; /*#68add1; /* #90b8eb; */
+	text-decoration: underline;
+}  /*"""""""" (SUB) Container""""""""*/
+#qm0 div,#qm0 ul {
+	padding: 5px;
+	margin: 0px;
+	background-color: #6dafd3; /**#fafafa; /* #d7e3f6; /* #fafafa*/
+	border-width: 4px 1px 1px;
+	border-style: solid;
+	border-color: #3288B7; /**#6dafd3;*/
+}  /*"""""""" (SUB) Items""""""""*/
+#qm0 div a,#qm0 ul a {
+	padding: 2px 30px 5px 5px;
+	border-width: 0px;
+	border-style: none;
+}  /*"""""""" (SUB) Hover State""""""""*/
+#qm0 div a:hover {
+	text-decoration: underline;
+	background-color: #3288B7;
+}  /*"""""""" (SUB) Hover State - (duplicated for pure CSS)""""""""*/
+#qm0 ul li:hover>a {
+	text-decoration: underline;
+}  /*"""""""" Individual Titles""""""""*/
+#qm0 .qmtitle {
+	margin: 2px 5px 5px;
+	color: #6dafd3;
+	font-family: "Liberation Sans", FreeSans, Sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}  /*"""""""" Individual Horizontal Dividers""""""""*/
+#qm0 .qmdividerx {
+	border-top-width: 2px;
+	margin: 4px 5px;
+	border-color: #a2a1ad;
+}  /*"""""""" Custom Rule""""""""*/
+ul#qm0 .qmparent {
+	/*background-image:
+		url(http://funvisiswww/images/cssalt1_arrow_down.gif);*/
+	background-repeat: no-repeat;
+	background-position: 97% 50%;
+}  /*"""""""" Custom Rule""""""""*/
+ul#qm0 li:hover>a.qmparent {
+	/*background-image:
+		url(http://funvisiswww/images/cssalt1_arrow_down_hover.gif);*/
+	text-decoration: underline;
+}  /*"""""""" Custom Rule""""""""*/
+ul#qm0 ul .qmparent {
+	background-image: none;
+		/*url(http://funvisiswww/images/cssalt1_arrow_right.gif);*/
+}  /*"""""""" Custom Rule""""""""*/
+ul#qm0 ul li:hover>a.qmparent {
+    background-image: none;
+/*	background-image:
+		url(http://funvisiswww/images/cssalt1_arrow_right_hover.gif);*/
+}
+</style>
+<!-- Add-On Core Code (Remove when not using any add-ons) -->
+<style type="text/css">
+.qmfv {
+	visibility: visible !important;
+}
+
+.qmfh {
+	visibility: hidden !important;
+}
+</style> 

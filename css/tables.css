@@ -1,0 +1,152 @@
+/* 
+        Classy yet somehow fancy
+        table style created by Radu Bilei
+        for Chris Heilmann's CSS Table Gallery
+        http://twitter.com/radubilei
+        http://icant.co.uk/csstablegallery
+*/
+
+table.t_lista  	
+{	
+    background: #3288B7; 
+    /*-webkit-border-radius: 6px; 
+    -moz-border-radius: 6px; */
+    border-radius: 6px; 
+    /*-webkit-box-shadow: 1px 1px 10px rgba(0,0,0,0.3); 
+    -moz-box-shadow: 1px 1px 10px rgba(0,0,0,0.3);*/
+}
+
+table.t_lista th td
+{	
+    border:none; 
+    border-collapse:collapse; 
+    font-family:"Liberation Sans", FreeSans, Sans-serif; 
+    font-size:1em; line-height:1.5em
+}
+
+table.t_lista caption
+{
+    text-align:left; 
+    text-transform:uppercase;
+    font-size:150%; 
+    font-weight:bold;
+    padding:1.5em 0;
+    color:black
+}
+
+table.t_lista thead, 
+table.t_lista tfoot	
+{
+    color:white;
+}
+
+table.t_lista thead th	
+{
+    padding:0.5em 1em;
+    text-transform:uppercase; 
+    text-align:center; 
+}
+/*table.t_lista thead th:first-child	{	width:10em; text-align:right; }*/
+
+table.t_lista tbody td,
+table.t_lista tbody th	
+{
+    font-size:100%; 
+    padding:0.5em 1em; 
+    background-color:#f6f6f6/*#e5e5e5*/;
+    vertical-align:middle
+}
+table.t_lista tbody th	
+{
+    color:#222;
+    text-align:right; 
+   /* background-image:url(tabel.png);*/ 
+    background-repeat:repeat-y;
+    border-right:1px solid #ccc
+}
+/*table.t_lista tbody td:last-child	{	border-right:1px solid black}*/
+
+table.t_lista tbody tr.odd th, 
+table.t_lista tbody tr.odd td	
+{
+    background-color:#eee; 
+    color:#222
+}
+
+table.t_lista tfoot td,
+table.t_lista tfoot th
+{
+    border:none;
+    padding:0.5em 1em 2em;
+    font-size:130%
+}
+
+table.t_lista tfoot th	
+{	
+    text-align:right
+}
+
+table.t_lista  a:link		
+{	
+    line-height:1em;
+    color:black; 
+    display:inline-block; 
+    padding:3px 7px;
+    margin:-3px -7px
+}
+
+table.t_lista  a:visited	
+{	
+    color:#555
+}
+
+table.t_lista  a:hover
+{
+    text-decoration:none;
+    background:#3288B7;
+    color:white;
+    /*-webkit-border-radius:4px; 
+    -moz-border-radius:4px;*/
+    border-radius:4px
+}
+
+/*table.t_lista ::-moz-selection{	background:#202020; color:white}
+table.t_lista ::selection		 {	background:#202020; color:white}
+
+table.t_lista thead ::-moz-selection, 
+table.t_lista tfoot ::-moz-selection{	background:white; color:#202020}
+table.t_lista thead ::selection, 
+table.t_lista tfoot ::selection		 {	background:white; color:#202020}*/
+
+
+
+/***************** Tabla 2 ****************/
+.container-fluid{
+    width:500px ;
+    padding-top:10px ;
+    box-shadow: 7px 7px 7px 7px rgba(0, 0, 0, 0.2);
+    align-content: center;
+    border-color: #3f3b3b;
+}
+
+.datos{
+    background-color: #3288B7;
+    padding: 30px;
+}
+.sismo{
+    background-color: #ddd71c;
+    padding: 30px;
+}
+.localidad{
+    background-color: #3288B7;
+    padding: 30px;
+}
+.efectos{
+    background-color: #ddd71c;
+    padding: 30px;
+}
+.button-click{
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+}
